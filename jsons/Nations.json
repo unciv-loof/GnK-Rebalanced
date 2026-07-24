@@ -15,8 +15,8 @@
 		"neutralHello": "Greetings.",
 		"hateHello": "What do YOU want?!",
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-		"outerColor": [27,53,63],
-		"innerColor": [213,249,255],
+		"outerColor": [27, 53, 63],
+		"innerColor": [213, 249, 255],
 		"favoredReligion": "Islam",
 		"uniqueName": "Ingenuity",
 		"uniques": [
@@ -54,8 +54,8 @@
 		"neutralHello": "How are you doing?",
 		"hateHello": "What do you want now?",
 		"tradeRequest": "The Incan people offer this fair trade.",
-		"outerColor": [255,184,33],
-		"innerColor": [3,115,86],
+		"outerColor": [255, 184, 33],
+		"innerColor": [3, 115, 86],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Great Andean Road",
 		"uniques": ["Units ignore terrain costs when moving into any tile with Hills"],
@@ -72,5 +72,5 @@
 			"Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti",
 			"Suyuntu", "Uturuncu", "Purutu", "Ozcollo"
 		]
-	},
+	}
 ]
