@@ -34,4 +34,15 @@
 		"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
+	{
+		"name": "Mint",
+		"gold": 3,
+		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Gold] from [Gold Ore] tiles [in this city]",
+			"[+1 Gold] from [Silver] tiles [in this city]"
+		],
+		"requiredTech": "Currency"
+	},
 ]
