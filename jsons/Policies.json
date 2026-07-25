@@ -1,0 +1,140 @@
+[
+	{
+		"name": "Piety",
+		"era": "Classical era",
+		"priorities": {
+			"Neutral": 0,
+			"Cultural": 0,
+			"Diplomatic": 0,
+			"Domination": 0,
+			"Scientific": 0
+		},
+		"uniques": [
+			"[+100]% Production when constructing [Shrine] buildings [in all cities]",
+			"[+100]% Production when constructing [Temple] buildings [in all cities]",
+			"[-100]% weight to this choice for AI decisions <when religion is disabled>"
+		],
+		"policies": [
+			{
+				"name": "Organized Religion",
+				"uniques": [
+					"[+1 Faith] from every [Shrine]",
+					"[+1 Faith] from every [Temple]"
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Mandate Of Heaven",
+				"uniques": ["[50]% of excess happiness converted to [Culture]"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Theocracy",
+				"uniques": ["[+10]% [Gold] from every [Temple]"],
+				"requires": ["Organized Religion"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Reformation",
+				"uniques": [
+					"[+33]% [Culture] [in all cities with a world wonder]",
+					"Empire enters golden age"
+				],
+				"requires": ["Organized Religion"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Free Religion",
+				"uniques": ["[-10]% Culture cost of adopting new Policies"],
+				"requires": [
+					"Mandate Of Heaven",
+					"Reformation"
+				],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Piety Complete",
+				"uniques": [
+					"[Faith] cost of purchasing items in cities [-20]%",
+					"[+3 Gold, +3 Culture] from every [Holy site]",
+					"Get the leader title of [[leaderName] the Pious]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Rationalism",
+		"era": "Renaissance era",
+		"priorities": {
+			"Neutral": 10,
+			"Cultural": 10,
+			"Diplomatic": 10,
+			"Domination": 10,
+			"Scientific": 10
+		},
+		"uniques": [
+			"[+15]% [Science] <while the empire is happy>"
+		],
+		"policies": [
+			{
+				"name": "Secularism",
+				"uniques": [
+					"[+2 Science] from every specialist [in all cities]"
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Humanism",
+				"uniques": [
+					"[+1 Happiness] from every [University]",
+					"[+1 Happiness] from every [Observatory]",
+					"[+1 Happiness] from every [Public School]",
+					"[-50]% weight to this choice for AI decisions"
+				],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Free Thought",
+				"uniques": [
+					"[+1 Science] from every [Trading post]",
+					"[+17]% [Science] from every [University]"
+				],
+				"requires": ["Secularism"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Sovereignty",
+				"uniques": ["[+1 Gold] from all [Science] buildings"],
+				"requires": ["Humanism"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Scientific Revolution",
+				"uniques": [
+					"Science gained from research agreements [+50]%",
+					"[-100]% weight to this choice for AI decisions"
+				],
+				"requires": ["Free Thought"],
+				"row": 3,
+				"column": 2
+			},
+			{
+				"name": "Rationalism Complete",
+				"uniques": [
+					"[2] Free Technologies",
+					"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Get the leader title of [[leaderName] the Wise]"
+				]
+			}
+		]
+	}
+]
