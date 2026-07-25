@@ -22,6 +22,21 @@
 		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
+		"name": "Floating Gardens",
+		"replaces": "Water Mill",
+		"uniqueTo": "Aztecs",
+		"food": 2,
+		"production": 1,
+		"uniques": [
+			"[+2 Food] from [Lakes] tiles [in this city]",
+			"Must be next to [Fresh water]"
+		],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"percentStatBonus": {"food": 5},
+		"requiredTech": "The Wheel"
+	},
+	{
 		"name": "Longhouse",
 		"replaces": "Workshop",
 		"uniqueTo": "Iroquois",
