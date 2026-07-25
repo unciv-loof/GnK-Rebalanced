@@ -3,5 +3,10 @@
 		"name": "Desert Folklore",
 		"type": "Pantheon",
 		"uniques": ["[+1 Faith] from [{non-[Oasis]} {Desert}] tiles without [Fresh Water] [in this city]"]
+	},
+	{
+		"name": "God of War",
+		"type": "Pantheon",
+		"uniques": ["Earn [100]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
 	}
 ]
