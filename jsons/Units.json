@@ -15,5 +15,24 @@
 		"uniques": ["No defensive terrain bonus"],
 		"promotions": ["Accuracy I"],
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Camel Archer",
+		"unitType": "Archery",
+		"replaces": "Knight",
+		"uniqueTo": "Arabia",
+		"movement": 3,
+		"strength": 17,
+		"rangedStrength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus"
+		],
+		"attackSound": "arrow"
 	}
 ]
