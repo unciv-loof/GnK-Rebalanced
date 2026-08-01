@@ -9,7 +9,7 @@
 		"rangedStrength": 10,
 		"cost": 56,
 		"requiredTech": "The Wheel",
-		"requiredResource": "Horses",
+		"requiredResource": "Horses", // From not requiring horses
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
@@ -21,9 +21,9 @@
 		"unitType": "Archery",
 		"replaces": "Knight",
 		"uniqueTo": "Arabia",
-		"movement": 3,
+		"movement": 3, // Down from 4
 		"strength": 17,
-		"rangedStrength": 20,
+		"rangedStrength": 20, // Down from 21
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
@@ -34,5 +34,5 @@
 			"No defensive terrain bonus"
 		],
 		"attackSound": "arrow"
-	}
+	},
 ]
