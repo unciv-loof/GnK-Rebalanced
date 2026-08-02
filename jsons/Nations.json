@@ -20,7 +20,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Ingenuity",
 		"uniques": [
-			"Free [Great Scientist] appears <upon discovering [Philosophy] technology>", // From at writing
+			"Free [Great Scientist] appears <upon discovering [Philosophy] technology>",
 			"[Great Scientist] is earned [50]% faster"
 		],
 		"cities": [
@@ -58,7 +58,7 @@
 		"innerColor": [3, 115, 86],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Great Andean Road",
-		"uniques": ["Units ignore terrain costs when moving into any tile with Hills"], // Removed road maintenance bonuses
+		"uniques": ["Units ignore terrain costs when moving into any tile with Hills"],
 		"cities": [
 			"Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina",
 			"Huamanga","Rumicucho","Vilcabamba","Vitcos","Andahuaylas",
@@ -94,9 +94,9 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Seven Cities of Gold",
 		"uniques": [
-			"Gain [50] [Gold] <(modified by game speed)> <upon discovering a Natural Wonder>", // Down from 500 when first and 100 when already known
-			"[+3 Happiness] for every known Natural Wonder", // Up from +1
-			"[+50]% Yield from every [Natural Wonder]" // Down from +100%
+			"Gain [50] [Gold] <(modified by game speed)> <upon discovering a Natural Wonder>",
+			"[+3 Happiness] for every known Natural Wonder",
+			"[+50]% Yield from every [Natural Wonder]"
 		],
 		"cities": [
 			"Madrid","Barcelona","Seville","Cordoba","Toledo",

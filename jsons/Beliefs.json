@@ -2,21 +2,21 @@
 	{
 		"name": "Desert Folklore",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from [{non-[Oasis]} {Desert}] tiles without [Fresh Water] [in this city]"] // From +1 faith from desert tiles
+		"uniques": ["[+1 Faith] from [{non-[Oasis]} {Desert}] tiles without [Fresh Water] [in this city]"]
 	},
 	{
 		"name": "Faith Healers",
 		"type": "Pantheon",
-		"uniques": ["[{All} {non-air}] Units adjacent to this city heal [+25] HP per turn when healing"] // From +30, and disabled for air units
+		"uniques": ["[{All} {non-air}] Units adjacent to this city heal [+25] HP per turn when healing"]
 	},
 	{
 		"name": "God of War",
 		"type": "Pantheon",
-		"uniques": ["Earn [100]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"] // From 50%
+		"uniques": ["Earn [100]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
 	},
     {
         "name": "Goddess of Protection",
         "type": "Pantheon",
-        "uniques": ["[+50]% Strength for cities <when attacking>"] // From +30%
+        "uniques": ["[+50]% Strength for cities <when attacking>"]
     }
 ]

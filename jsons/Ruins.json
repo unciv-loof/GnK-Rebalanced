@@ -3,7 +3,7 @@
 		"name": "your exploring unit receives training",
 		"notification": "An ancient tribe trained us in their ways of combat!",
 		"uniques": [
-			"[This Unit] gains [20] XP", // From 10
+			"[This Unit] gains [20] XP",
 			"Play [promote] sound"
 		]
 	},
@@ -11,7 +11,7 @@
 		"name": "discover holy symbols",
 		"notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
 		"uniques": [
-			"Gain [15]-[30] [Faith] <(modified by game speed)>", // Up from enough faith for a pantheon
+			"Gain [15]-[30] [Faith] <(modified by game speed)>",
 			"Only available <when religion is enabled>",
 			"Only available <before founding a Pantheon>",
 			"Only available <after turn number [20]>",
