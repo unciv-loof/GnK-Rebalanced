@@ -9,7 +9,7 @@
 			"Domination": 0,
 			"Scientific": 0
 		},
-		"uniques": [
+		"uniques": [ // Removed co-exclusivity with Rationalism
 			"[+100]% Production when constructing [Shrine] buildings [in all cities]",
 			"[+100]% Production when constructing [Temple] buildings [in all cities]",
 			"[-100]% weight to this choice for AI decisions <when religion is disabled>"
@@ -77,7 +77,7 @@
 			"Domination": 10,
 			"Scientific": 10
 		},
-		"uniques": [
+		"uniques": [ // Removed co-exclusivity with Piety
 			"[+15]% [Science] <while the empire is happy>"
 		],
 		"policies": [
