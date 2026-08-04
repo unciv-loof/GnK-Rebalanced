@@ -35,4 +35,16 @@
 		],
 		"attackSound": "arrow"
 	},
+	{
+		"name": "Galley",
+		"unitType": "Melee Water",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 7,
+		"cost": 40,
+		"uniques": ["Cannot enter ocean tiles"],
+		"upgradesTo": "Galleass", // Changed from Trireme to buff Ottomans
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
 ]
